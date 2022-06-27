@@ -29,7 +29,10 @@ jobs:
         run: yarn build
       - name: Run Tests 🧪
         run: yarn test:coverage
-#      - name: Report coverage (client) 📏
+      - name: Report coverage (client) 📏
+        uses: codecov/codecov-action@v2
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
 
   Publish:
     runs-on: ubuntu-latest
