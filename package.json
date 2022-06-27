@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "description": "This plugin is for controlling responses like SWR (stale-while-revalidate) in Cloudflare Workers.",
   "main": "dist/index.js",
+  "module": "dist/index.js",
+  "type": "module",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
@@ -51,7 +53,11 @@
     "extends": [
       "typescript",
       "prettier"
-    ]
+    ],
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaVersion": 2022
+    }
   },
   "prettier": {
     "singleQuote": true,
@@ -83,8 +89,16 @@
   "release": {
     "branches": [
       "main",
-      { "name": "pre/rc", "channel": "pre/rc", "prerelease": "rc" },
-      { "name": "beta", "channel": "beta", "prerelease": true }
+      {
+        "name": "pre/rc",
+        "channel": "pre/rc",
+        "prerelease": "rc"
+      },
+      {
+        "name": "beta",
+        "channel": "beta",
+        "prerelease": true
+      }
     ]
   }
 }
