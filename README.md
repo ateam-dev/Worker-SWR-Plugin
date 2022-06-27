@@ -1,5 +1,6 @@
 [![npm version](https://badge.fury.io/js/worker-swr-plugin.svg)](https://badge.fury.io/js/worker-swr-plugin)
 [![CI](https://github.com/ateam-dev/Worker-SWR-Plugin/actions/workflows/ci.yml/badge.svg)](https://github.com/ateam-dev/Worker-SWR-Plugin/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/ateam-dev/Worker-SWR-Plugin/branch/main/graph/badge.svg?token=S8EXPCMV52)](https://codecov.io/gh/ateam-dev/Worker-SWR-Plugin)
 
 # Worker SWR Plugin
 
