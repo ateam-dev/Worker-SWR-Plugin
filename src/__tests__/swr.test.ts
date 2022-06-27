@@ -1,6 +1,6 @@
 import { MockServer } from 'jest-mock-server'
 import waitForExpect from 'wait-for-expect'
-import { headerToJson, KVCacheStore } from '../helpers/kv'
+import { KVCacheStore } from '../helpers/kv'
 import { makeSwr } from '../swr'
 import { NotMatchedError } from '../swr'
 
