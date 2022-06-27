@@ -1,3 +1,6 @@
+[![npm version](https://badge.fury.io/js/worker-swr-plugin.svg)](https://badge.fury.io/js/worker-swr-plugin)
+[![CI](https://github.com/ateam-dev/Worker-SWR-Plugin/actions/workflows/ci.yml/badge.svg)](https://github.com/ateam-dev/Worker-SWR-Plugin/actions/workflows/ci.yml)
+
 # Worker SWR Plugin
 
 ## What is this plugin
